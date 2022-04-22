@@ -1,6 +1,11 @@
+# Bachelor Project: Automated Early Detection of Diabetic Retinopathy in Retinal Fundus Photographs using Deep Learning
+Welcome to the 'Bachelor Project: Automated Early Detection of Diabetic Retinopathy in Retinal Fundus Photographs using Deep Learning' repository!
+This is the Bachelor graduation project of Ghent University.
+
 There are nine python codes(.py) and two jupyther notebook documents with the python language(.ipynb) in the github link.
 
-Resizing_dataset.py resizes the images into an equal size, 224×224 pixels in width and height. fold_split.py splits the initial dataset into five folds for 5-fold cross-validation and makes a CSV file having the columns of image name, class, and fold.
+Resizing_dataset.py resizes the images into an equal size, 224×224 pixels in width and height.
+fold_split.py splits the initial dataset into five folds for 5-fold cross-validation and makes a CSV file having the columns of image name, class, and fold.
 
 train.py, Test_dataset.py, SubPolicy.py, and CIFAR10Policy.py are used for training the model.
 
